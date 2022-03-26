@@ -1,5 +1,5 @@
 {% set name = "spdx-license-matcher" %}
-{% set version = "2.1" %}
+{% set version = "2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/spdx/spdx-license-matcher/archive/v{{ version }}.tar.gz
-  sha256: 984857fc97e59017d6533cd72373ea8195c6054385425c9068dabb13538e005e
+  sha256: 911f9e12f627152d7b293b7398debe5c62c99e45be07f8f3e76dd7c3742e7e41
 
 build:
   entry_points:
