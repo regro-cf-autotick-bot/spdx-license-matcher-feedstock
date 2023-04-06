@@ -1,11 +1,11 @@
-About spdx-license-matcher
-==========================
+About spdx-license-matcher-feedstock
+====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/spdx-license-matcher-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/spdx/spdx-license-matcher
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/spdx-license-matcher-feedstock/blob/main/LICENSE.txt)
 
 Summary: A tool to match license text with SPDX license list using a an algorithm with finds close matches.
 
