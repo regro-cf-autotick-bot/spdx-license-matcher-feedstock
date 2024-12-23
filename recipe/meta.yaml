@@ -1,5 +1,5 @@
 {% set name = "spdx-license-matcher" %}
-{% set version = "2.4" %}
+{% set version = "2.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/spdx/spdx-license-matcher/archive/v{{ version }}.tar.gz
-  sha256: d03f74bc12fd7c73abdc9fe2f599b676094577c7727408b0ead39594ef048a26
+  sha256: d418ec2fcb546ed29ff67fa75154d0ea3771b8883771c8a864f539b8e9069ae3
 
 build:
   entry_points:
@@ -27,7 +27,7 @@ requirements:
     - jpype1 >=1.3.0
     - python >=3
     - python-dotenv >=0.17.1
-    - redis-py ==3.2.1
+    - redis-py ==4.4.4
     - requests >=2.25
 
 test:
